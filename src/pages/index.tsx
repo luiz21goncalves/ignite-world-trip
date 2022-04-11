@@ -1,5 +1,7 @@
 import type { NextPage } from 'next';
 
-const Home: NextPage = () => <h1>World Trip</h1>;
+import { Heading } from '@chakra-ui/react';
+
+const Home: NextPage = () => <Heading as="h1">World Trip</Heading>;
 
 export default Home;
