@@ -1,12 +1,12 @@
 import { Circle, Text, Grid, GridItem } from '@chakra-ui/react';
 
-import { TRAVELTYPES } from '../../constants';
+import { TRAVEL_TYPES } from '../../constants';
 
 export function TravelTypes() {
   return (
     <Grid gridTemplateColumns="repeat(2, 1fr)" py={9} px={12} rowGap={6}>
-      {TRAVELTYPES.map(({ key, label }, index) => {
-        const lastIndex = TRAVELTYPES.length - 1;
+      {TRAVEL_TYPES.map(({ key, label }, index) => {
+        const lastIndex = TRAVEL_TYPES.length - 1;
         const isPair = index % 2 === 0;
 
         if (lastIndex === index) {

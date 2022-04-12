@@ -239,6 +239,14 @@
   dependencies:
     "@chakra-ui/utils" "1.10.4"
 
+"@chakra-ui/icons@^1.1.7":
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-1.1.7.tgz#f8c0c44a969c8654b90026b7d375b550c4bfbc49"
+  integrity sha512-YIHxey/B4M2PyFASlHXtAWFyW+tsAtGAChOJ8dsM2kpu1MbVUqm/6nMI1KIFd7Te5IWuNYA75rAHBdLI0Yu61A==
+  dependencies:
+    "@chakra-ui/icon" "2.0.5"
+    "@types/react" "^17.0.15"
+
 "@chakra-ui/image@1.1.10":
   version "1.1.10"
   resolved "https://registry.yarnpkg.com/@chakra-ui/image/-/image-1.1.10.tgz#65bae4086559937d25c728660ae743bce9360cb2"
@@ -1002,6 +1010,15 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
+"@types/react@^17.0.15":
+  version "17.0.44"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.44.tgz#c3714bd34dd551ab20b8015d9d0dbec812a51ec7"
+  integrity sha512-Ye0nlw09GeMp2Suh8qoOv0odfgCoowfM/9MG6WeRD60Gq9wS90bdkdRtYbRkNhXOpG4H+YXGvj4wOWhAC0LJ1g==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
 "@types/scheduler@*":
   version "0.16.2"
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
@@ -1673,6 +1690,23 @@ domutils@^2.8.0:
     dom-serializer "^1.0.1"
     domelementtype "^2.2.0"
     domhandler "^4.2.0"
+
+embla-carousel-autoplay@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/embla-carousel-autoplay/-/embla-carousel-autoplay-6.2.0.tgz#0fe9c1fb0b2e0f8196f686f21cf3a8c47a008ba6"
+  integrity sha512-3AxzeRwzgDR5aPcPXwdcrpm25A9yVB1ZE/0mQJJsOyfIfKrXu3wgSkI/cxQkCOxM54UjTVhiuhoJb8enpRa7FQ==
+
+embla-carousel-react@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/embla-carousel-react/-/embla-carousel-react-6.2.0.tgz#25fbba759b294b54d6241a04ff56dca83bd3c511"
+  integrity sha512-XshB7pmmhso/fzENefflWw5/N3HqCjO8H5CkzQxuCQqV9w+bvEaBkjUZ6fxfqLUMMSKFWIQvMD6uo9f8oKS+2g==
+  dependencies:
+    embla-carousel "6.2.0"
+
+embla-carousel@6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/embla-carousel/-/embla-carousel-6.2.0.tgz#c16b18abe50e05ccd03d0b8d0b738f6a87aea1e0"
+  integrity sha512-dSNsiQ7nmSQJZgbYfZCLdzrnznHwpaAcdJFcMRKgm/pjH1doOgxmfsvlMy4VfO4J11hLz8jm/W8WxSSDqfuu4w==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
