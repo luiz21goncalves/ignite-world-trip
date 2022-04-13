@@ -8,14 +8,14 @@ import {
 } from '@chakra-ui/react';
 
 export function Banner() {
-  const [isLargerThan1200] = useMediaQuery('(min-width: 1200px)');
+  const [isLargerThan1150] = useMediaQuery('(min-width: 1150px)');
 
   return (
     <Flex
       w="full"
-      p={[7, 20]}
-      pl={[4, '140px']}
-      pb={[7, '70px']}
+      p={[7, 7, 7, 20]}
+      pl={[4, 8, 8, '140px']}
+      pb={[7, 7, 7, '70px']}
       flexDir="column"
       position="relative"
     >
@@ -52,7 +52,7 @@ export function Banner() {
           </Text>
         </Box>
 
-        {isLargerThan1200 && (
+        {isLargerThan1150 && (
           <Image
             src="/assets/airplane.svg"
             w="418p"
