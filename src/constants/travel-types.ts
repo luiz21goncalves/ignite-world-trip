@@ -16,7 +16,7 @@ export default [
     label: 'clássico',
   },
   {
-    key: 'and_more',
+    key: 'and-more',
     label: 'e mais...',
   },
 ];
