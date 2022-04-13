@@ -4,14 +4,13 @@ import { Carousel } from '../Carousel';
 
 export function Footer() {
   return (
-    <Box mb={6}>
+    <Box mb={[6, 10]}>
       <Heading
         textAlign="center"
-        fontSize="xl"
+        fontSize={['xl', '4xl']}
         fontWeight="medium"
         color="dark.700"
-        mt={6}
-        mb={5}
+        my={[6, 14]}
       >
         Vamos nessa?
         <br />

@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 
-import { Divider, Center } from '@chakra-ui/react';
+import { Center, Box } from '@chakra-ui/react';
 
 import { Header } from '../components/Header';
 import { Banner } from '../components/Banner';
@@ -13,7 +13,7 @@ const Home: NextPage = () => (
     <Banner />
     <TravelTypes />
     <Center>
-      <Divider w={16} borderColor="dark.700" />
+      <Box w={[16, 24]} h={['1px', '2px']} bg="dark.700" />
     </Center>
     <Footer />
   </>
