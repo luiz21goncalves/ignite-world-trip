@@ -35,6 +35,7 @@ export function Banner() {
           <Heading
             color="light.800"
             fontSize={['xl', '4xl']}
+            lineHeight={['30px', '54px']}
             fontWeight="medium"
           >
             5 Continentes,
@@ -44,8 +45,9 @@ export function Banner() {
           <Text
             color="light.500"
             fontSize={['sm', 'xl']}
+            lineHeight={['21px', '30px']}
             fontWeight="normal"
-            mt={2}
+            mt={[2, '21px']}
             maxW="524px"
           >
             Chegou a hora de tirar do papel a viagem que você sempre sonhou.

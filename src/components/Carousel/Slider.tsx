@@ -36,6 +36,7 @@ export function Slider(props: SliderProps) {
         >
           <Heading
             fontSize={['2xl', '5xl']}
+            lineHeight={['36px', '72px']}
             textAlign="center"
             fontWeight="bold"
             color="light.800"
@@ -45,6 +46,7 @@ export function Slider(props: SliderProps) {
           </Heading>
           <Text
             fontSize={['sm', '2xl']}
+            lineHeight={['21px', '36px']}
             fontWeight="bold"
             textAlign="center"
             color="light.800"

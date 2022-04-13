@@ -8,6 +8,7 @@ export function Footer() {
       <Heading
         textAlign="center"
         fontSize={['xl', '4xl']}
+        lineHeight={['30px', '54px']}
         fontWeight="medium"
         color="dark.700"
         my={[6, 14]}

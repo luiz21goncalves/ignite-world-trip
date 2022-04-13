@@ -20,6 +20,7 @@ export function TravelTypeItem(props: TravelTypeItemProps) {
 
       <Text
         fontSize={['lg', '2xl']}
+        lineHeight={['27px', '36px']}
         fontWeight={['medium', 'semibold']}
         color="dark.700"
       >
