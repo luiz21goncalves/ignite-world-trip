@@ -57,7 +57,14 @@ export function Carousel() {
   }, [embla, onScroll]);
 
   return (
-    <Box position="relative" w="full" h={64} bg="light.800">
+    <Box
+      position="relative"
+      w="full"
+      maxW="1240px"
+      h={[64, '450px']}
+      bg="light.800"
+      mx="auto"
+    >
       <Box ref={viewportRef} overflow="hidden" w="full" h="full">
         <Flex userSelect="none" ml="-10px">
           {CAROUSEL_ITEMS.map(({ key, description, image_url, name }) => (
@@ -76,11 +83,11 @@ export function Carousel() {
 
       <Flex
         position="absolute"
-        gap={2}
+        gap={[2, 3]}
         w="full"
         align="center"
         justify="center"
-        bottom={3}
+        bottom={[3, 6]}
       >
         {scrollSnaps.map((value, index) => (
           <DotButton

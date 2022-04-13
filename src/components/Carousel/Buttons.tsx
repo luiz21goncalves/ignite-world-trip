@@ -17,7 +17,7 @@ export function DotButton(props: DotButtonProps) {
   return (
     <Circle
       onClick={onClick}
-      size={2}
+      size={[2, 2, 4]}
       bg={selected ? 'highlight.500' : 'dark.500'}
       cursor="pointer"
     />
@@ -37,7 +37,8 @@ export function PrevButton(props: ButtonProps) {
       transform="translateY(-50%)"
       bg="transparent"
       border="none"
-      size="sm"
+      w={[8, '60px']}
+      h={[8, '60px']}
       p={0}
       m={0}
       display="flex"
@@ -68,7 +69,8 @@ export function NextButton(props: ButtonProps) {
       transform="translateY(-50%)"
       bg="transparent"
       border="none"
-      size="sm"
+      w={[8, '60px']}
+      h={[8, '60px']}
       p={0}
       m={0}
       display="flex"

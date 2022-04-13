@@ -11,7 +11,7 @@ export function Slider(props: SliderProps) {
 
   return (
     <Box position="relative" minW="100%" pl="10px">
-      <Box position="relative" overflow="hidden" h={64}>
+      <Box position="relative" overflow="hidden" h={[64, '450px']}>
         <Image
           src={imageUrl}
           alt={`paisagem de ${name}`}
@@ -35,7 +35,7 @@ export function Slider(props: SliderProps) {
           flexDir="column"
         >
           <Heading
-            fontSize="2xl"
+            fontSize={['2xl', '5xl']}
             textAlign="center"
             fontWeight="bold"
             color="light.800"
@@ -44,7 +44,7 @@ export function Slider(props: SliderProps) {
             {name}
           </Heading>
           <Text
-            fontSize="sm"
+            fontSize={['sm', '2xl']}
             fontWeight="bold"
             textAlign="center"
             color="light.800"
