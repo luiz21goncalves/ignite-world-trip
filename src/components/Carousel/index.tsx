@@ -13,8 +13,6 @@ export function Carousel() {
     Autoplay(
       {
         delay: 3000,
-        stopOnInteraction: true,
-        stopOnMouseEnter: true,
       },
       (emblaRoot) => emblaRoot.parentElement,
     ),
@@ -67,9 +65,10 @@ export function Carousel() {
     >
       <Box ref={viewportRef} overflow="hidden" w="full" h="full">
         <Flex userSelect="none" ml="-10px">
-          {CAROUSEL_ITEMS.map(({ key, description, image_url, name }) => (
+          {CAROUSEL_ITEMS.map(({ key, description, image_url, name, slug }) => (
             <Slider
               key={key}
+              slug={slug}
               imageUrl={image_url}
               description={description}
               name={name}
