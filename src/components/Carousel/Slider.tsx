@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Box, Flex, Heading, Image, Text } from '@chakra-ui/react';
 
 type SliderProps = {
-  slug: number;
+  slug: string;
   name: string;
   description: string;
   imageUrl: string;
