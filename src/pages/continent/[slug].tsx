@@ -31,11 +31,19 @@ type Continent = {
 
 const Continent: NextPage = () => {
   const router = useRouter();
-  const { slug } = router.query as { slug: string };
+  const { slug } = router.query as {
+    slug:
+      | 'europa'
+      | 'asia'
+      | 'america-do-norte'
+      | 'america-do-sul'
+      | 'asia'
+      | 'oceania';
+  };
   const [continent, setContinent] = useState<Continent | null>(null);
 
   useEffect(() => {
-    setContinent(CONTINENTS[slug]);
+    setContinent(CONTINENTS[slug] as Continent);
   }, [slug]);
 
   if (!continent) {
